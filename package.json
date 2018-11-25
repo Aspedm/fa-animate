@@ -1,7 +1,7 @@
 {
   "name": "fa-animate",
   "description": "Vue directive for animate font awesome icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/fa-animate.min.js",
   "module": "dist/fa-animate.esm.js",
