@@ -2,6 +2,10 @@
 
 VueJS directive for animate font awesome icons.
 
+<p align="center">
+  <img width="725" height="440" src="https://raw.githubusercontent.com/Aspedm/fa-animate/master/fa-animate.gif">
+</p>
+
 ## Installation
 ```
 yarn fa-animate
