@@ -83,9 +83,7 @@ export default {
 
 ## Options
 You can passed options for directive:
-* Fa Animate options
 
-### Fa animate options
 | Name          | Type     | Description | Default |
 |---------------|----------|-------------|---------|
 |`stroke`       | string   | Stroke color| 'currentColor'|
