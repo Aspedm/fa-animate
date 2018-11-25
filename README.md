@@ -95,3 +95,9 @@ You can passed options for directive:
 ### Vivus options
 All [Vivus](https://github.com/maxwellito/vivus) options are available.
 ***Version 0.1 not suported callback function***
+
+## Credits
+A big thanks to:
+- [Vivus](https://github.com/maxwellito/vivus) for the SVG animation library!
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome) for the awesome SVG icons!
+- [innovato](https://github.com/innovato/fontanimate) for good idea!
