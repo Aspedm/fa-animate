@@ -4,7 +4,6 @@ import babel from "rollup-plugin-babel";
 import commonjs from "rollup-plugin-commonjs";
 import filesize from "rollup-plugin-filesize";
 import json from "rollup-plugin-json";
-import license from "rollup-plugin-license";
 import resolve from "rollup-plugin-node-resolve";
 import replace from "rollup-plugin-replace";
 import uglify from "rollup-plugin-uglify";
@@ -98,16 +97,6 @@ function genConfig(name) {
       config.plugins.push(uglify({}, minify));
     }
   }
-
-  // output a license to builds
-  config.plugins.push(
-    license({
-      sourceMap: true,
-      banner: {
-        file: path.resolve("LICENSE.md")
-      }
-    })
-  );
 
   Object.defineProperty(config, "_name", {
     enumerable: false,
